@@ -12,9 +12,9 @@ export default {
     };
   },
   mounted() {
-    this.axios.get("https://hitoapi.cc/sp").then((response) => {
-      this.sentence = response.data.text;
-    });
+    // this.axios.get("https://hitoapi.cc/sp").then((response) => {
+    //   this.sentence = response.data.text;
+    // });
   },
 };
 </script>
