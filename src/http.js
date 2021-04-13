@@ -3,7 +3,7 @@ import axios from 'axios';
 
 axios.defaults.timeout = 6000; // 超时时间
 
-axios.defaults.baseURL = 'http://blog-api.wongxy.com/';
+axios.defaults.baseURL = 'http://blog-api.wongxy.cn/';
 
 // 请求拦截器
 axios.interceptors.request.use(
